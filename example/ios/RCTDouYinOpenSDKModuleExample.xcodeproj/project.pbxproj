@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* RCTDouYinOpenSDKModuleExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RCTDouYinOpenSDKModuleExampleTests.m */; };
-		0C80B921A6F3F58F76C31292 /* libPods-RCTDouYinOpenSDKModuleExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-RCTDouYinOpenSDKModuleExample.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		7699B88040F8A987B510C191 /* libPods-RCTDouYinOpenSDKModuleExample-RCTDouYinOpenSDKModuleExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-RCTDouYinOpenSDKModuleExample-RCTDouYinOpenSDKModuleExampleTests.a */; };
+		2930A017B18D2364AE110CAE /* libPods-RCTDouYinOpenSDKModuleExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 88771FEEAF599DC1E463E69B /* libPods-RCTDouYinOpenSDKModuleExample.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		CDF3E1A6D2E2D9C9BFB066A4 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = DB36122133429B4508414689 /* PrivacyInfo.xcprivacy */; };
+		FF7FC9A956D98ECF08F8E06C /* libPods-RCTDouYinOpenSDKModuleExample-RCTDouYinOpenSDKModuleExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A34C18E863DAAC3F513253F /* libPods-RCTDouYinOpenSDKModuleExample-RCTDouYinOpenSDKModuleExampleTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,13 +38,70 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = RCTDouYinOpenSDKModuleExample/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = RCTDouYinOpenSDKModuleExample/main.m; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = RCTDouYinOpenSDKModuleExample/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		19F6CBCC0A4E27FBF8BF4A61 /* libPods-RCTDouYinOpenSDKModuleExample-RCTDouYinOpenSDKModuleExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RCTDouYinOpenSDKModuleExample-RCTDouYinOpenSDKModuleExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B4392A12AC88292D35C810B /* Pods-RCTDouYinOpenSDKModuleExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCTDouYinOpenSDKModuleExample.debug.xcconfig"; path = "Target Support Files/Pods-RCTDouYinOpenSDKModuleExample/Pods-RCTDouYinOpenSDKModuleExample.debug.xcconfig"; sourceTree = "<group>"; };
-		5709B34CF0A7D63546082F79 /* Pods-RCTDouYinOpenSDKModuleExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCTDouYinOpenSDKModuleExample.release.xcconfig"; path = "Target Support Files/Pods-RCTDouYinOpenSDKModuleExample/Pods-RCTDouYinOpenSDKModuleExample.release.xcconfig"; sourceTree = "<group>"; };
-		5B7EB9410499542E8C5724F5 /* Pods-RCTDouYinOpenSDKModuleExample-RCTDouYinOpenSDKModuleExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCTDouYinOpenSDKModuleExample-RCTDouYinOpenSDKModuleExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-RCTDouYinOpenSDKModuleExample-RCTDouYinOpenSDKModuleExampleTests/Pods-RCTDouYinOpenSDKModuleExample-RCTDouYinOpenSDKModuleExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-RCTDouYinOpenSDKModuleExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RCTDouYinOpenSDKModuleExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		204ED262813E86B2138ACB6D /* Pods-RCTDouYinOpenSDKModuleExample-RCTDouYinOpenSDKModuleExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCTDouYinOpenSDKModuleExample-RCTDouYinOpenSDKModuleExampleTests.release.xcconfig"; path = "Target Support Files/Pods-RCTDouYinOpenSDKModuleExample-RCTDouYinOpenSDKModuleExampleTests/Pods-RCTDouYinOpenSDKModuleExample-RCTDouYinOpenSDKModuleExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		2A34C18E863DAAC3F513253F /* libPods-RCTDouYinOpenSDKModuleExample-RCTDouYinOpenSDKModuleExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RCTDouYinOpenSDKModuleExample-RCTDouYinOpenSDKModuleExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3534E5CD77E0FDCB6F33BBE3 /* Pods-RCTDouYinOpenSDKModuleExample-RCTDouYinOpenSDKModuleExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCTDouYinOpenSDKModuleExample-RCTDouYinOpenSDKModuleExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-RCTDouYinOpenSDKModuleExample-RCTDouYinOpenSDKModuleExampleTests/Pods-RCTDouYinOpenSDKModuleExample-RCTDouYinOpenSDKModuleExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = RCTDouYinOpenSDKModuleExample/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		89C6BE57DB24E9ADA2F236DE /* Pods-RCTDouYinOpenSDKModuleExample-RCTDouYinOpenSDKModuleExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCTDouYinOpenSDKModuleExample-RCTDouYinOpenSDKModuleExampleTests.release.xcconfig"; path = "Target Support Files/Pods-RCTDouYinOpenSDKModuleExample-RCTDouYinOpenSDKModuleExampleTests/Pods-RCTDouYinOpenSDKModuleExample-RCTDouYinOpenSDKModuleExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		828FA6222CB04AA20044E6B6 /* hermes.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = hermes.xcframework; path = "Pods/hermes-engine/destroot/Library/Frameworks/universal/hermes.xcframework"; sourceTree = "<group>"; };
+		828FA6242CB04AA20044E6B6 /* libDoubleConversion.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libDoubleConversion.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		828FA6262CB04AA20044E6B6 /* libfmt.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libfmt.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		828FA6282CB04AA20044E6B6 /* libglog.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglog.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		828FA62E2CB04AA20044E6B6 /* libRCT-Folly.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libRCT-Folly.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		828FA6302CB04AA20044E6B6 /* libRCTDeprecation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRCTDeprecation.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		828FA6322CB04AA20044E6B6 /* libRCTDouYinOpenSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRCTDouYinOpenSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		828FA6342CB04AA20044E6B6 /* libRCTTypeSafety.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRCTTypeSafety.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		828FA6362CB04AA20044E6B6 /* libReact-Core.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-Core.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		828FA6382CB04AA20044E6B6 /* libReact-CoreModules.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-CoreModules.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		828FA63A2CB04AA20044E6B6 /* libReact-cxxreact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-cxxreact.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		828FA63C2CB04AA20044E6B6 /* libReact-debug.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-debug.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		828FA63E2CB04AA20044E6B6 /* libReact-defaultsnativemodule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-defaultsnativemodule.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		828FA6402CB04AA20044E6B6 /* libReact-domnativemodule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-domnativemodule.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		828FA6422CB04AA20044E6B6 /* libReact-Fabric.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-Fabric.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		828FA6442CB04AA20044E6B6 /* libReact-FabricComponents.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-FabricComponents.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		828FA6462CB04AA20044E6B6 /* libReact-FabricImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-FabricImage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		828FA6482CB04AA20044E6B6 /* libReact-featureflags.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-featureflags.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		828FA64A2CB04AA20044E6B6 /* libReact-featureflagsnativemodule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-featureflagsnativemodule.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		828FA64C2CB04AA20044E6B6 /* libReact-graphics.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-graphics.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		828FA64E2CB04AA20044E6B6 /* libReact-hermes.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-hermes.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		828FA6502CB04AA20044E6B6 /* libReact-idlecallbacksnativemodule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-idlecallbacksnativemodule.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		828FA6522CB04AA20044E6B6 /* libReact-ImageManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-ImageManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		828FA6542CB04AA20044E6B6 /* libReact-jserrorhandler.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-jserrorhandler.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		828FA6562CB04AA20044E6B6 /* libReact-jsi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-jsi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		828FA6582CB04AA20044E6B6 /* libReact-jsiexecutor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-jsiexecutor.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		828FA65A2CB04AA20044E6B6 /* libReact-jsinspector.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-jsinspector.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		828FA65C2CB04AA20044E6B6 /* libReact-logger.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-logger.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		828FA65E2CB04AA20044E6B6 /* libReact-Mapbuffer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-Mapbuffer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		828FA6602CB04AA20044E6B6 /* libReact-microtasksnativemodule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-microtasksnativemodule.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		828FA6622CB04AA20044E6B6 /* libReact-nativeconfig.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-nativeconfig.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		828FA6642CB04AA20044E6B6 /* libReact-NativeModulesApple.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-NativeModulesApple.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		828FA6662CB04AA20044E6B6 /* libReact-perflogger.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-perflogger.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		828FA6682CB04AA20044E6B6 /* libReact-performancetimeline.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-performancetimeline.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		828FA66A2CB04AA20044E6B6 /* libReact-RCTAnimation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTAnimation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		828FA66C2CB04AA20044E6B6 /* libReact-RCTAppDelegate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTAppDelegate.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		828FA66E2CB04AA20044E6B6 /* libReact-RCTBlob.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTBlob.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		828FA6702CB04AA20044E6B6 /* libReact-RCTFabric.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTFabric.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		828FA6722CB04AA20044E6B6 /* libReact-RCTImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTImage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		828FA6742CB04AA20044E6B6 /* libReact-RCTLinking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTLinking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		828FA6762CB04AA20044E6B6 /* libReact-RCTNetwork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTNetwork.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		828FA6782CB04AA20044E6B6 /* libReact-RCTSettings.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTSettings.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		828FA67A2CB04AA20044E6B6 /* libReact-RCTText.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTText.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		828FA67C2CB04AA20044E6B6 /* libReact-RCTVibration.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTVibration.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		828FA67E2CB04AA20044E6B6 /* libReact-rendererconsistency.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-rendererconsistency.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		828FA6802CB04AA20044E6B6 /* libReact-rendererdebug.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-rendererdebug.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		828FA6822CB04AA20044E6B6 /* libReact-RuntimeApple.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RuntimeApple.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		828FA6842CB04AA20044E6B6 /* libReact-RuntimeCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RuntimeCore.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		828FA6862CB04AA20044E6B6 /* libReact-RuntimeHermes.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RuntimeHermes.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		828FA6882CB04AA20044E6B6 /* libReact-runtimescheduler.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-runtimescheduler.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		828FA68A2CB04AA20044E6B6 /* libReact-utils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-utils.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		828FA68C2CB04AA20044E6B6 /* libReactCodegen.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReactCodegen.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		828FA68E2CB04AA20044E6B6 /* libReactCommon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReactCommon.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		828FA6902CB04AA20044E6B6 /* libSocketRocket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libSocketRocket.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		828FA6922CB04AA20044E6B6 /* libYoga.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libYoga.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		828FA6942CB0D2D90044E6B6 /* libReact-RCTAppDelegate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTAppDelegate.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88771FEEAF599DC1E463E69B /* libPods-RCTDouYinOpenSDKModuleExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RCTDouYinOpenSDKModuleExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD72CE807A6AED70ABC92A5E /* Pods-RCTDouYinOpenSDKModuleExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCTDouYinOpenSDKModuleExample.debug.xcconfig"; path = "Target Support Files/Pods-RCTDouYinOpenSDKModuleExample/Pods-RCTDouYinOpenSDKModuleExample.debug.xcconfig"; sourceTree = "<group>"; };
+		D2494D895E5A88548417D03F /* Pods-RCTDouYinOpenSDKModuleExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCTDouYinOpenSDKModuleExample.release.xcconfig"; path = "Target Support Files/Pods-RCTDouYinOpenSDKModuleExample/Pods-RCTDouYinOpenSDKModuleExample.release.xcconfig"; sourceTree = "<group>"; };
+		DB36122133429B4508414689 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = RCTDouYinOpenSDKModuleExample/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -52,7 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7699B88040F8A987B510C191 /* libPods-RCTDouYinOpenSDKModuleExample-RCTDouYinOpenSDKModuleExampleTests.a in Frameworks */,
+				FF7FC9A956D98ECF08F8E06C /* libPods-RCTDouYinOpenSDKModuleExample-RCTDouYinOpenSDKModuleExampleTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,7 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* libPods-RCTDouYinOpenSDKModuleExample.a in Frameworks */,
+				2930A017B18D2364AE110CAE /* libPods-RCTDouYinOpenSDKModuleExample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +152,7 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 				13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */,
+				DB36122133429B4508414689 /* PrivacyInfo.xcprivacy */,
 			);
 			name = RCTDouYinOpenSDKModuleExample;
 			sourceTree = "<group>";
@@ -101,9 +160,65 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				828FA6942CB0D2D90044E6B6 /* libReact-RCTAppDelegate.a */,
+				828FA6222CB04AA20044E6B6 /* hermes.xcframework */,
+				828FA6242CB04AA20044E6B6 /* libDoubleConversion.a */,
+				828FA6262CB04AA20044E6B6 /* libfmt.a */,
+				828FA6282CB04AA20044E6B6 /* libglog.a */,
+				828FA62E2CB04AA20044E6B6 /* libRCT-Folly.a */,
+				828FA6302CB04AA20044E6B6 /* libRCTDeprecation.a */,
+				828FA6322CB04AA20044E6B6 /* libRCTDouYinOpenSDK.a */,
+				828FA6342CB04AA20044E6B6 /* libRCTTypeSafety.a */,
+				828FA6362CB04AA20044E6B6 /* libReact-Core.a */,
+				828FA6382CB04AA20044E6B6 /* libReact-CoreModules.a */,
+				828FA63A2CB04AA20044E6B6 /* libReact-cxxreact.a */,
+				828FA63C2CB04AA20044E6B6 /* libReact-debug.a */,
+				828FA63E2CB04AA20044E6B6 /* libReact-defaultsnativemodule.a */,
+				828FA6402CB04AA20044E6B6 /* libReact-domnativemodule.a */,
+				828FA6422CB04AA20044E6B6 /* libReact-Fabric.a */,
+				828FA6442CB04AA20044E6B6 /* libReact-FabricComponents.a */,
+				828FA6462CB04AA20044E6B6 /* libReact-FabricImage.a */,
+				828FA6482CB04AA20044E6B6 /* libReact-featureflags.a */,
+				828FA64A2CB04AA20044E6B6 /* libReact-featureflagsnativemodule.a */,
+				828FA64C2CB04AA20044E6B6 /* libReact-graphics.a */,
+				828FA64E2CB04AA20044E6B6 /* libReact-hermes.a */,
+				828FA6502CB04AA20044E6B6 /* libReact-idlecallbacksnativemodule.a */,
+				828FA6522CB04AA20044E6B6 /* libReact-ImageManager.a */,
+				828FA6542CB04AA20044E6B6 /* libReact-jserrorhandler.a */,
+				828FA6562CB04AA20044E6B6 /* libReact-jsi.a */,
+				828FA6582CB04AA20044E6B6 /* libReact-jsiexecutor.a */,
+				828FA65A2CB04AA20044E6B6 /* libReact-jsinspector.a */,
+				828FA65C2CB04AA20044E6B6 /* libReact-logger.a */,
+				828FA65E2CB04AA20044E6B6 /* libReact-Mapbuffer.a */,
+				828FA6602CB04AA20044E6B6 /* libReact-microtasksnativemodule.a */,
+				828FA6622CB04AA20044E6B6 /* libReact-nativeconfig.a */,
+				828FA6642CB04AA20044E6B6 /* libReact-NativeModulesApple.a */,
+				828FA6662CB04AA20044E6B6 /* libReact-perflogger.a */,
+				828FA6682CB04AA20044E6B6 /* libReact-performancetimeline.a */,
+				828FA66A2CB04AA20044E6B6 /* libReact-RCTAnimation.a */,
+				828FA66C2CB04AA20044E6B6 /* libReact-RCTAppDelegate.a */,
+				828FA66E2CB04AA20044E6B6 /* libReact-RCTBlob.a */,
+				828FA6702CB04AA20044E6B6 /* libReact-RCTFabric.a */,
+				828FA6722CB04AA20044E6B6 /* libReact-RCTImage.a */,
+				828FA6742CB04AA20044E6B6 /* libReact-RCTLinking.a */,
+				828FA6762CB04AA20044E6B6 /* libReact-RCTNetwork.a */,
+				828FA6782CB04AA20044E6B6 /* libReact-RCTSettings.a */,
+				828FA67A2CB04AA20044E6B6 /* libReact-RCTText.a */,
+				828FA67C2CB04AA20044E6B6 /* libReact-RCTVibration.a */,
+				828FA67E2CB04AA20044E6B6 /* libReact-rendererconsistency.a */,
+				828FA6802CB04AA20044E6B6 /* libReact-rendererdebug.a */,
+				828FA6822CB04AA20044E6B6 /* libReact-RuntimeApple.a */,
+				828FA6842CB04AA20044E6B6 /* libReact-RuntimeCore.a */,
+				828FA6862CB04AA20044E6B6 /* libReact-RuntimeHermes.a */,
+				828FA6882CB04AA20044E6B6 /* libReact-runtimescheduler.a */,
+				828FA68A2CB04AA20044E6B6 /* libReact-utils.a */,
+				828FA68C2CB04AA20044E6B6 /* libReactCodegen.a */,
+				828FA68E2CB04AA20044E6B6 /* libReactCommon.a */,
+				828FA6902CB04AA20044E6B6 /* libSocketRocket.a */,
+				828FA6922CB04AA20044E6B6 /* libYoga.a */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-RCTDouYinOpenSDKModuleExample.a */,
-				19F6CBCC0A4E27FBF8BF4A61 /* libPods-RCTDouYinOpenSDKModuleExample-RCTDouYinOpenSDKModuleExampleTests.a */,
+				88771FEEAF599DC1E463E69B /* libPods-RCTDouYinOpenSDKModuleExample.a */,
+				2A34C18E863DAAC3F513253F /* libPods-RCTDouYinOpenSDKModuleExample-RCTDouYinOpenSDKModuleExampleTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -142,10 +257,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3B4392A12AC88292D35C810B /* Pods-RCTDouYinOpenSDKModuleExample.debug.xcconfig */,
-				5709B34CF0A7D63546082F79 /* Pods-RCTDouYinOpenSDKModuleExample.release.xcconfig */,
-				5B7EB9410499542E8C5724F5 /* Pods-RCTDouYinOpenSDKModuleExample-RCTDouYinOpenSDKModuleExampleTests.debug.xcconfig */,
-				89C6BE57DB24E9ADA2F236DE /* Pods-RCTDouYinOpenSDKModuleExample-RCTDouYinOpenSDKModuleExampleTests.release.xcconfig */,
+				AD72CE807A6AED70ABC92A5E /* Pods-RCTDouYinOpenSDKModuleExample.debug.xcconfig */,
+				D2494D895E5A88548417D03F /* Pods-RCTDouYinOpenSDKModuleExample.release.xcconfig */,
+				3534E5CD77E0FDCB6F33BBE3 /* Pods-RCTDouYinOpenSDKModuleExample-RCTDouYinOpenSDKModuleExampleTests.debug.xcconfig */,
+				204ED262813E86B2138ACB6D /* Pods-RCTDouYinOpenSDKModuleExample-RCTDouYinOpenSDKModuleExampleTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -157,12 +272,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "RCTDouYinOpenSDKModuleExampleTests" */;
 			buildPhases = (
-				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
+				A9A0FC1F3F5D7935AF95F60F /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
-				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
+				C28830F4D516E503F1827D26 /* [CP] Embed Pods Frameworks */,
+				0A460E11867312D162FA473C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -178,13 +293,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "RCTDouYinOpenSDKModuleExample" */;
 			buildPhases = (
-				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				D2476C55B0C3918A579D7707 /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
-				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+				CCBD484CABDD7737D11CFC91 /* [CP] Embed Pods Frameworks */,
+				76BB90AD07EB74D91CFF822D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -201,7 +316,8 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1210;
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
@@ -245,6 +361,7 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				CDF3E1A6D2E2D9C9BFB066A4 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,24 +384,41 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"$REACT_NATIVE_PATH/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"$REACT_NATIVE_PATH/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+		0A460E11867312D162FA473C /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RCTDouYinOpenSDKModuleExample/Pods-RCTDouYinOpenSDKModuleExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-RCTDouYinOpenSDKModuleExample-RCTDouYinOpenSDKModuleExampleTests/Pods-RCTDouYinOpenSDKModuleExample-RCTDouYinOpenSDKModuleExampleTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RCTDouYinOpenSDKModuleExample/Pods-RCTDouYinOpenSDKModuleExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-RCTDouYinOpenSDKModuleExample-RCTDouYinOpenSDKModuleExampleTests/Pods-RCTDouYinOpenSDKModuleExample-RCTDouYinOpenSDKModuleExampleTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RCTDouYinOpenSDKModuleExample/Pods-RCTDouYinOpenSDKModuleExample-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RCTDouYinOpenSDKModuleExample-RCTDouYinOpenSDKModuleExampleTests/Pods-RCTDouYinOpenSDKModuleExample-RCTDouYinOpenSDKModuleExampleTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
+		76BB90AD07EB74D91CFF822D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RCTDouYinOpenSDKModuleExample/Pods-RCTDouYinOpenSDKModuleExample-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RCTDouYinOpenSDKModuleExample/Pods-RCTDouYinOpenSDKModuleExample-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RCTDouYinOpenSDKModuleExample/Pods-RCTDouYinOpenSDKModuleExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9A0FC1F3F5D7935AF95F60F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -306,7 +440,41 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+		C28830F4D516E503F1827D26 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RCTDouYinOpenSDKModuleExample-RCTDouYinOpenSDKModuleExampleTests/Pods-RCTDouYinOpenSDKModuleExample-RCTDouYinOpenSDKModuleExampleTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RCTDouYinOpenSDKModuleExample-RCTDouYinOpenSDKModuleExampleTests/Pods-RCTDouYinOpenSDKModuleExample-RCTDouYinOpenSDKModuleExampleTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RCTDouYinOpenSDKModuleExample-RCTDouYinOpenSDKModuleExampleTests/Pods-RCTDouYinOpenSDKModuleExample-RCTDouYinOpenSDKModuleExampleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCBD484CABDD7737D11CFC91 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RCTDouYinOpenSDKModuleExample/Pods-RCTDouYinOpenSDKModuleExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RCTDouYinOpenSDKModuleExample/Pods-RCTDouYinOpenSDKModuleExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RCTDouYinOpenSDKModuleExample/Pods-RCTDouYinOpenSDKModuleExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2476C55B0C3918A579D7707 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -326,57 +494,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RCTDouYinOpenSDKModuleExample-RCTDouYinOpenSDKModuleExampleTests/Pods-RCTDouYinOpenSDKModuleExample-RCTDouYinOpenSDKModuleExampleTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RCTDouYinOpenSDKModuleExample-RCTDouYinOpenSDKModuleExampleTests/Pods-RCTDouYinOpenSDKModuleExample-RCTDouYinOpenSDKModuleExampleTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RCTDouYinOpenSDKModuleExample-RCTDouYinOpenSDKModuleExampleTests/Pods-RCTDouYinOpenSDKModuleExample-RCTDouYinOpenSDKModuleExampleTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RCTDouYinOpenSDKModuleExample/Pods-RCTDouYinOpenSDKModuleExample-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RCTDouYinOpenSDKModuleExample/Pods-RCTDouYinOpenSDKModuleExample-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RCTDouYinOpenSDKModuleExample/Pods-RCTDouYinOpenSDKModuleExample-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RCTDouYinOpenSDKModuleExample-RCTDouYinOpenSDKModuleExampleTests/Pods-RCTDouYinOpenSDKModuleExample-RCTDouYinOpenSDKModuleExampleTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RCTDouYinOpenSDKModuleExample-RCTDouYinOpenSDKModuleExampleTests/Pods-RCTDouYinOpenSDKModuleExample-RCTDouYinOpenSDKModuleExampleTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RCTDouYinOpenSDKModuleExample-RCTDouYinOpenSDKModuleExampleTests/Pods-RCTDouYinOpenSDKModuleExample-RCTDouYinOpenSDKModuleExampleTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -412,7 +529,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-RCTDouYinOpenSDKModuleExample-RCTDouYinOpenSDKModuleExampleTests.debug.xcconfig */;
+			baseConfigurationReference = 3534E5CD77E0FDCB6F33BBE3 /* Pods-RCTDouYinOpenSDKModuleExample-RCTDouYinOpenSDKModuleExampleTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -431,7 +548,7 @@
 					"-lc++",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "douyinopensdkrn.example";
+				PRODUCT_BUNDLE_IDENTIFIER = douyinopensdkrn.example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RCTDouYinOpenSDKModuleExample.app/RCTDouYinOpenSDKModuleExample";
 			};
@@ -439,7 +556,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-RCTDouYinOpenSDKModuleExample-RCTDouYinOpenSDKModuleExampleTests.release.xcconfig */;
+			baseConfigurationReference = 204ED262813E86B2138ACB6D /* Pods-RCTDouYinOpenSDKModuleExample-RCTDouYinOpenSDKModuleExampleTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -455,7 +572,7 @@
 					"-lc++",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "douyinopensdkrn.example";
+				PRODUCT_BUNDLE_IDENTIFIER = douyinopensdkrn.example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RCTDouYinOpenSDKModuleExample.app/RCTDouYinOpenSDKModuleExample";
 			};
@@ -463,12 +580,76 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-RCTDouYinOpenSDKModuleExample.debug.xcconfig */;
+			baseConfigurationReference = AD72CE807A6AED70ABC92A5E /* Pods-RCTDouYinOpenSDKModuleExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WDF5V4WH3C;
 				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/DoubleConversion\"",
+					"\"${PODS_ROOT}/Headers/Public/FBLazyVector\"",
+					"\"${PODS_ROOT}/Headers/Public/RCT-Folly\"",
+					"\"${PODS_ROOT}/Headers/Public/RCTDeprecation\"",
+					"\"${PODS_ROOT}/Headers/Public/RCTDouYinOpenSDK\"",
+					"\"${PODS_ROOT}/Headers/Public/RCTRequired\"",
+					"\"${PODS_ROOT}/Headers/Public/RCTTypeSafety\"",
+					"\"${PODS_ROOT}/Headers/Public/React-Core\"",
+					"\"${PODS_ROOT}/Headers/Public/React-Fabric\"",
+					"\"${PODS_ROOT}/Headers/Public/React-FabricComponents\"",
+					"\"${PODS_ROOT}/Headers/Public/React-FabricImage\"",
+					"\"${PODS_ROOT}/Headers/Public/React-ImageManager\"",
+					"\"${PODS_ROOT}/Headers/Public/React-Mapbuffer\"",
+					"\"${PODS_ROOT}/Headers/Public/React-NativeModulesApple\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTAnimation\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTAppDelegate\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTBlob\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTFabric\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTText\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RuntimeApple\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RuntimeCore\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RuntimeHermes\"",
+					"\"${PODS_ROOT}/Headers/Public/React-callinvoker\"",
+					"\"${PODS_ROOT}/Headers/Public/React-cxxreact\"",
+					"\"${PODS_ROOT}/Headers/Public/React-debug\"",
+					"\"${PODS_ROOT}/Headers/Public/React-defaultsnativemodule\"",
+					"\"${PODS_ROOT}/Headers/Public/React-domnativemodule\"",
+					"\"${PODS_ROOT}/Headers/Public/React-featureflags\"",
+					"\"${PODS_ROOT}/Headers/Public/React-featureflagsnativemodule\"",
+					"\"${PODS_ROOT}/Headers/Public/React-graphics\"",
+					"\"${PODS_ROOT}/Headers/Public/React-hermes\"",
+					"\"${PODS_ROOT}/Headers/Public/React-idlecallbacksnativemodule\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jserrorhandler\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsi\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsiexecutor\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsinspector\"",
+					"\"${PODS_ROOT}/Headers/Public/React-logger\"",
+					"\"${PODS_ROOT}/Headers/Public/React-microtasksnativemodule\"",
+					"\"${PODS_ROOT}/Headers/Public/React-nativeconfig\"",
+					"\"${PODS_ROOT}/Headers/Public/React-perflogger\"",
+					"\"${PODS_ROOT}/Headers/Public/React-performancetimeline\"",
+					"\"${PODS_ROOT}/Headers/Public/React-rendererconsistency\"",
+					"\"${PODS_ROOT}/Headers/Public/React-rendererdebug\"",
+					"\"${PODS_ROOT}/Headers/Public/React-runtimeexecutor\"",
+					"\"${PODS_ROOT}/Headers/Public/React-runtimescheduler\"",
+					"\"${PODS_ROOT}/Headers/Public/React-utils\"",
+					"\"${PODS_ROOT}/Headers/Public/ReactCodegen\"",
+					"\"${PODS_ROOT}/Headers/Public/ReactCommon\"",
+					"\"${PODS_ROOT}/Headers/Public/SocketRocket\"",
+					"\"${PODS_ROOT}/Headers/Public/Yoga\"",
+					"\"${PODS_ROOT}/Headers/Public/boost\"",
+					"\"${PODS_ROOT}/Headers/Public/fmt\"",
+					"\"${PODS_ROOT}/Headers/Public/glog\"",
+					"\"${PODS_ROOT}/Headers/Public/hermes-engine\"",
+					"\"$(PODS_ROOT)/DoubleConversion\"",
+					"\"$(PODS_ROOT)/boost\"",
+					"\"$(PODS_ROOT)/Headers/Private/React-Core\"",
+					"$(SRCROOT)/../../React",
+					"$(SRCROOT)/../../react-native/React",
+				);
 				INFOPLIST_FILE = RCTDouYinOpenSDKModuleExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -480,7 +661,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "douyinopensdkrn.example";
+				PRODUCT_BUNDLE_IDENTIFIER = douyinopensdkrn.example;
 				PRODUCT_NAME = RCTDouYinOpenSDKModuleExample;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -490,11 +671,75 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-RCTDouYinOpenSDKModuleExample.release.xcconfig */;
+			baseConfigurationReference = D2494D895E5A88548417D03F /* Pods-RCTDouYinOpenSDKModuleExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WDF5V4WH3C;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/DoubleConversion\"",
+					"\"${PODS_ROOT}/Headers/Public/FBLazyVector\"",
+					"\"${PODS_ROOT}/Headers/Public/RCT-Folly\"",
+					"\"${PODS_ROOT}/Headers/Public/RCTDeprecation\"",
+					"\"${PODS_ROOT}/Headers/Public/RCTDouYinOpenSDK\"",
+					"\"${PODS_ROOT}/Headers/Public/RCTRequired\"",
+					"\"${PODS_ROOT}/Headers/Public/RCTTypeSafety\"",
+					"\"${PODS_ROOT}/Headers/Public/React-Core\"",
+					"\"${PODS_ROOT}/Headers/Public/React-Fabric\"",
+					"\"${PODS_ROOT}/Headers/Public/React-FabricComponents\"",
+					"\"${PODS_ROOT}/Headers/Public/React-FabricImage\"",
+					"\"${PODS_ROOT}/Headers/Public/React-ImageManager\"",
+					"\"${PODS_ROOT}/Headers/Public/React-Mapbuffer\"",
+					"\"${PODS_ROOT}/Headers/Public/React-NativeModulesApple\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTAnimation\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTAppDelegate\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTBlob\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTFabric\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTText\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RuntimeApple\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RuntimeCore\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RuntimeHermes\"",
+					"\"${PODS_ROOT}/Headers/Public/React-callinvoker\"",
+					"\"${PODS_ROOT}/Headers/Public/React-cxxreact\"",
+					"\"${PODS_ROOT}/Headers/Public/React-debug\"",
+					"\"${PODS_ROOT}/Headers/Public/React-defaultsnativemodule\"",
+					"\"${PODS_ROOT}/Headers/Public/React-domnativemodule\"",
+					"\"${PODS_ROOT}/Headers/Public/React-featureflags\"",
+					"\"${PODS_ROOT}/Headers/Public/React-featureflagsnativemodule\"",
+					"\"${PODS_ROOT}/Headers/Public/React-graphics\"",
+					"\"${PODS_ROOT}/Headers/Public/React-hermes\"",
+					"\"${PODS_ROOT}/Headers/Public/React-idlecallbacksnativemodule\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jserrorhandler\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsi\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsiexecutor\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsinspector\"",
+					"\"${PODS_ROOT}/Headers/Public/React-logger\"",
+					"\"${PODS_ROOT}/Headers/Public/React-microtasksnativemodule\"",
+					"\"${PODS_ROOT}/Headers/Public/React-nativeconfig\"",
+					"\"${PODS_ROOT}/Headers/Public/React-perflogger\"",
+					"\"${PODS_ROOT}/Headers/Public/React-performancetimeline\"",
+					"\"${PODS_ROOT}/Headers/Public/React-rendererconsistency\"",
+					"\"${PODS_ROOT}/Headers/Public/React-rendererdebug\"",
+					"\"${PODS_ROOT}/Headers/Public/React-runtimeexecutor\"",
+					"\"${PODS_ROOT}/Headers/Public/React-runtimescheduler\"",
+					"\"${PODS_ROOT}/Headers/Public/React-utils\"",
+					"\"${PODS_ROOT}/Headers/Public/ReactCodegen\"",
+					"\"${PODS_ROOT}/Headers/Public/ReactCommon\"",
+					"\"${PODS_ROOT}/Headers/Public/SocketRocket\"",
+					"\"${PODS_ROOT}/Headers/Public/Yoga\"",
+					"\"${PODS_ROOT}/Headers/Public/boost\"",
+					"\"${PODS_ROOT}/Headers/Public/fmt\"",
+					"\"${PODS_ROOT}/Headers/Public/glog\"",
+					"\"${PODS_ROOT}/Headers/Public/hermes-engine\"",
+					"\"$(PODS_ROOT)/DoubleConversion\"",
+					"\"$(PODS_ROOT)/boost\"",
+					"\"$(PODS_ROOT)/Headers/Private/React-Core\"",
+					"$(SRCROOT)/../../React",
+					"$(SRCROOT)/../../react-native/React",
+				);
 				INFOPLIST_FILE = RCTDouYinOpenSDKModuleExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -506,7 +751,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "douyinopensdkrn.example";
+				PRODUCT_BUNDLE_IDENTIFIER = douyinopensdkrn.example;
 				PRODUCT_NAME = RCTDouYinOpenSDKModuleExample;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -517,6 +762,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CC = "";
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -544,6 +791,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				CXX = "";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
@@ -563,6 +811,8 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD = "";
+				LDPLUSPLUS = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
@@ -582,7 +832,14 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				USE_HERMES = true;
 			};
 			name = Debug;
 		};
@@ -590,6 +847,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CC = "";
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -617,6 +876,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				CXX = "";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
@@ -629,6 +889,8 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD = "";
+				LDPLUSPLUS = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
@@ -647,7 +909,13 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				USE_HERMES = true;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;

@@ -1,6 +1,6 @@
 buildscript {
   // Buildscript is evaluated before everything else so we can't use getExtOrDefault
-  def kotlin_version = rootProject.ext.has("kotlinVersion") ? rootProject.ext.get("kotlinVersion") : project.properties["RCTDouYinOpenSDKModule_kotlinVersion"]
+  def kotlin_version = rootProject.ext.has("kotlinVersion") ? rootProject.ext.get("kotlinVersion") : project.properties["RCTDouYinOpenSDK_kotlinVersion"]
 
   repositories {
     google()
@@ -8,7 +8,7 @@ buildscript {
   }
 
   dependencies {
-    classpath "com.android.tools.build:gradle:7.2.1"
+    classpath "com.android.tools.build:gradle:7.3.1"
     // noinspection DifferentKotlinGradleVersion
     classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
   }
@@ -31,11 +31,11 @@ if (isNewArchitectureEnabled()) {
 }
 
 def getExtOrDefault(name) {
-  return rootProject.ext.has(name) ? rootProject.ext.get(name) : project.properties["RCTDouYinOpenSDKModule_" + name]
+  return rootProject.ext.has(name) ? rootProject.ext.get(name) : project.properties["RCTDouYinOpenSDK_" + name]
 }
 
 def getExtOrIntegerDefault(name) {
-  return rootProject.ext.has(name) ? rootProject.ext.get(name) : (project.properties["RCTDouYinOpenSDKModule_" + name]).toInteger()
+  return rootProject.ext.has(name) ? rootProject.ext.get(name) : (project.properties["RCTDouYinOpenSDK_" + name]).toInteger()
 }
 
 def supportsNamespace() {
@@ -49,7 +49,7 @@ def supportsNamespace() {
 
 android {
   if (supportsNamespace()) {
-    namespace "com.douyinopensdkrn"
+    namespace "com.lnyynet.dysdkrn"
 
     sourceSets {
       main {
@@ -64,7 +64,6 @@ android {
     minSdkVersion getExtOrIntegerDefault("minSdkVersion")
     targetSdkVersion getExtOrIntegerDefault("targetSdkVersion")
     buildConfigField "boolean", "IS_NEW_ARCHITECTURE_ENABLED", isNewArchitectureEnabled().toString()
-
   }
 
   buildFeatures {
@@ -82,8 +81,8 @@ android {
   }
 
   compileOptions {
-    sourceCompatibility JavaVersion.VERSION_1_8
-    targetCompatibility JavaVersion.VERSION_1_8
+    sourceCompatibility JavaVersion.VERSION_17
+    targetCompatibility JavaVersion.VERSION_17
   }
 
   sourceSets {
@@ -105,6 +104,7 @@ android {
 repositories {
   mavenCentral()
   google()
+  maven { url 'https://artifact.bytedance.com/repository/AwemeOpenSDK' }
 }
 
 def kotlin_version = getExtOrDefault("kotlinVersion")
@@ -113,14 +113,21 @@ dependencies {
   // For < 0.71, this will be from the local maven repo
   // For > 0.71, this will be replaced by `com.facebook.react:react-android:$version` by react gradle plugin
   //noinspection GradleDynamicVersion
-  implementation "com.facebook.react:react-native:+"
+  // implementation "com.facebook.react:react-native:+"
   implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+
+  // this line is only needed when local development, comment it out when release
+  implementation "com.facebook.react:react-android:0.75.3"
+
+  // Douyin Open SDK
+  implementation 'com.bytedance.ies.ugc.aweme:opensdk-china-external:0.2.0.2'
+  implementation 'com.bytedance.ies.ugc.aweme:opensdk-common:0.2.0.2'
 }
 
 if (isNewArchitectureEnabled()) {
   react {
     jsRootDir = file("../src/")
-    libraryName = "RCTDouYinOpenSDKModule"
-    codegenJavaPackageName = "com.douyinopensdkrn"
+    libraryName = "RCTDouYinOpenSDK"
+    codegenJavaPackageName = "com.lnyynet.dysdkrn"
   }
 }

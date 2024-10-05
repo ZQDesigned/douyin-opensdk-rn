@@ -1,4 +1,5 @@
 import { NativeModules, Platform } from 'react-native';
+import type { AuthResult } from './common';
 
 const LINKING_ERROR =
   `The package 'douyin-opensdk-rn' doesn't seem to be linked. Make sure: \n\n` +
@@ -9,12 +10,12 @@ const LINKING_ERROR =
 // @ts-expect-error
 const isTurboModuleEnabled = global.__turboModuleProxy != null;
 
-const RCTDouYinOpenSDKModuleModule = isTurboModuleEnabled
-  ? require('./NativeRCTDouYinOpenSDKModule').default
-  : NativeModules.RCTDouYinOpenSDKModule;
+const RCTDouYinOpenSDKModule = isTurboModuleEnabled
+  ? require('./NativeRCTDouYinOpenSDK').default
+  : NativeModules.RCTDouYinOpenSDK;
 
-const RCTDouYinOpenSDKModule = RCTDouYinOpenSDKModuleModule
-  ? RCTDouYinOpenSDKModuleModule
+const RCTDouYinOpenSDK = RCTDouYinOpenSDKModule
+  ? RCTDouYinOpenSDKModule
   : new Proxy(
       {},
       {
@@ -24,6 +25,10 @@ const RCTDouYinOpenSDKModule = RCTDouYinOpenSDKModuleModule
       }
     );
 
-export function multiply(a: number, b: number): Promise<number> {
-  return RCTDouYinOpenSDKModule.multiply(a, b);
+export function initSDK(clientKey: string): void {
+  RCTDouYinOpenSDK.initSDK(clientKey);
+}
+
+export function authorize(): Promise<AuthResult> {
+  return RCTDouYinOpenSDK.authorize();
 }

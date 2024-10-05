@@ -39,10 +39,16 @@ project.xcworkspace
 .settings
 local.properties
 android.iml
+android/build
+android/gradle
+android/gradlew
+android/gradlew.bat
 
 # Cocoapods
 #
 example/ios/Pods
+example/ios/Podfile.lock
+example/ios/.xcode.env.local
 
 # Ruby
 example/vendor/

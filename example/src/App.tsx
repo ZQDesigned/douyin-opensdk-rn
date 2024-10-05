@@ -1,17 +1,16 @@
-import { useState, useEffect } from 'react';
+import { useEffect } from 'react';
 import { StyleSheet, View, Text } from 'react-native';
-import { multiply } from 'douyin-opensdk-rn';
+import { initSDK } from 'douyin-opensdk-rn';
 
 export default function App() {
-  const [result, setResult] = useState<number | undefined>();
 
   useEffect(() => {
-    multiply(3, 7).then(setResult);
+    initSDK('clientKey');
   }, []);
 
   return (
     <View style={styles.container}>
-      <Text>Result: {result}</Text>
+      <Text>Result</Text>
     </View>
   );
 }
