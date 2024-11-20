@@ -1,7 +1,71 @@
 #import "RCTDouYinOpenSDKModule.h"
 #import "DouyinOpenSDK/DouyinOpenSDKAuth.h"
-#import "Utility.h"
-#import "AuthResult.h"
+#import <UIKit/UIKit.h>
+
+@implementation AuthResult
+
+- (instancetype)initWithAuthType:(nonnull NSString *)authType
+                       authCode:(nullable NSString *)authCode
+            grantedPermissions:(nullable NSString *)grantedPermissions
+                      errorCode:(nullable NSNumber *)errorCode
+                       errorMsg:(nullable NSString *)errorMsg {
+    self = [super init];
+    if (self) {
+        _authType = authType;
+        _authCode = [authCode copy];
+        _grantedPermissions = [grantedPermissions copy];
+        _errorCode = errorCode;
+        _errorMsg = [errorMsg copy];
+    }
+    return self;
+}
+
+- (NSDictionary *)toDictionary {
+    NSMutableDictionary *dict = [NSMutableDictionary dictionary];
+
+    dict[@"authType"] = self.authType;
+    if (self.authCode) {
+        dict[@"authCode"] = self.authCode;
+    }
+    if (self.grantedPermissions) {
+        dict[@"grantedPermissions"] = self.grantedPermissions;
+    }
+    if (self.errorCode) {
+        dict[@"errorCode"] = self.errorCode;
+    }
+    if (self.errorMsg) {
+        dict[@"errorMsg"] = self.errorMsg;
+    }
+
+    return [dict copy];
+}
+@end
+
+@implementation Utility
+
++ (UIViewController *)getCurrentViewController {
+    UIViewController *rootViewController = [UIApplication sharedApplication].keyWindow.rootViewController;
+    return [self getTopViewController:rootViewController];
+}
+
++ (UIViewController *)getTopViewController:(UIViewController *)rootViewController {
+    if (rootViewController.presentedViewController) {
+        return [self getTopViewController:rootViewController.presentedViewController];
+    } else if ([rootViewController isKindOfClass:[UINavigationController class]]) {
+        return [self getTopViewController:[(UINavigationController *)rootViewController topViewController]];
+    } else if ([rootViewController isKindOfClass:[UITabBarController class]]) {
+        return [self getTopViewController:[(UITabBarController *)rootViewController selectedViewController]];
+    } else {
+        return rootViewController;
+    }
+}
+
++ (NSNumber *)getErrorCodeValue:(DouyinOpenSDKErrorCode)errorCode {
+  return [NSNumber numberWithInteger:errorCode];
+}
+
+@end
+
 
 @implementation RCTDouYinOpenSDKModule
 RCT_EXPORT_MODULE()
