@@ -12,7 +12,7 @@ const isTurboModuleEnabled = global.__turboModuleProxy != null;
 
 const RCTDouYinOpenSDKModule = isTurboModuleEnabled
   ? require('./NativeRCTDouYinOpenSDK').default
-  : NativeModules.RCTDouYinOpenSDK;
+  : NativeModules.DouYinOpenSDKModule;
 
 const RCTDouYinOpenSDK = RCTDouYinOpenSDKModule
   ? RCTDouYinOpenSDKModule
